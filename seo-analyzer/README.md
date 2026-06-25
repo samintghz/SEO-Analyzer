@@ -1,6 +1,6 @@
-# SEO Analyzer
+# SEO-Analyzer
 
-A full-stack web application that analyzes website SEO performance and provides automated recommendations.
+A full-stack SEO auditing tool built with FastAPI, BeautifulSoup, and JavaScript for website analysis and automated recommendations.
 
 ## Overview
 
@@ -26,7 +26,6 @@ The application analyzes technical SEO factors, evaluates website performance, c
 ## Tech Stack
 
 ### Backend
-
 - Python
 - FastAPI
 - BeautifulSoup4
@@ -34,10 +33,15 @@ The application analyzes technical SEO factors, evaluates website performance, c
 - Uvicorn
 
 ### Frontend
-
 - HTML
 - CSS
 - JavaScript
 
+---
 
-## Project Structure
+## Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone [https://github.com/samintghz/SEO-Analyzer.git](https://github.com/samintghz/SEO-Analyzer.git)
