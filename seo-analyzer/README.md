@@ -44,4 +44,4 @@ The application analyzes technical SEO factors, evaluates website performance, c
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/samintghz/SEO-Analyzer.git](https://github.com/samintghz/SEO-Analyzer.git)
+git clone git clone https://github.com/samintghz/seo-analyzer.git
