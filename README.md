@@ -40,3 +40,76 @@ The application analyzes technical SEO factors, evaluates website performance, c
 
 
 ## Project Structure
+
+
+
+SEO-Analyzer/
+
+│
+├── backend/
+│ ├── main.py
+│ ├── analyzer.py
+│ └── requirements.txt
+│
+├── frontend/
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
+├── README.md
+└── .gitignore
+
+
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/samintghz/SEO-Analyzer.git
+2. Install dependencies
+
+Navigate to the backend folder:
+
+cd backend
+
+Install required packages:
+
+pip install -r requirements.txt
+3. Start the backend server
+
+Run:
+
+uvicorn main:app --reload
+
+The API will run at:
+
+http://127.0.0.1:8000
+API Usage
+
+Endpoint:
+
+POST /analyze
+
+Example request:
+
+{
+  "url": "https://github.com",
+  "keyword": "developer"
+}
+
+The API returns:
+
+SEO score
+Technical SEO score
+Performance score
+Accessibility score
+Keyword analysis
+Recommendations
+Future Improvements
+PDF report generation
+Advanced SEO metrics
+Database integration
+User authentication
+Author
+
+Samin Taghizadeh
