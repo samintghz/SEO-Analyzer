@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>SEO Analyzer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+    <h1>SEO Analyzer</h1>
+
+    <p>Analyze website SEO performance</p>
+
+
+
+    <div class="input-box">
+
+
+        <input 
+        id="urlInput"
+        type="text"
+        placeholder="Enter website URL">
+
+
+        <button onclick="analyze()">
+            Analyze
+        </button>
+
+
+    </div>
+
+
+
+    <!-- Loading -->
+
+    <div id="loading" class="hidden">
+
+        Analyzing website...
+
+    </div>
+
+
+
+
+
+    <div id="result" class="hidden">
+
+
+
+        <!-- Score -->
+
+        <div class="score-card">
+
+
+            <h2>SEO Score</h2>
+
+
+            <div class="score-circle">
+
+
+                <div class="circle">
+
+
+                    <span id="scoreValue">
+                        0
+                    </span>
+
+
+                    <small>/100</small>
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <!-- SEO Categories -->
+
+        <div class="cards">
+
+
+
+            <div class="card">
+
+
+                <h3>Technical SEO</h3>
+
+
+                <div class="bar">
+
+                    <div id="technicalBar"></div>
+
+                </div>
+
+
+                <p id="technicalScore"></p>
+
+
+            </div>
+
+
+
+
+
+            <div class="card">
+
+
+                <h3>Performance</h3>
+
+
+                <div class="bar">
+
+                    <div id="performanceBar"></div>
+
+                </div>
+
+
+                <p id="performanceScore"></p>
+
+
+            </div>
+
+
+
+
+
+            <div class="card">
+
+
+                <h3>Accessibility</h3>
+
+
+                <div class="bar">
+
+                    <div id="accessibilityBar"></div>
+
+                </div>
+
+
+                <p id="accessibilityScore"></p>
+
+
+            </div>
+
+
+
+
+
+            <div class="card">
+
+
+                <h3>Content SEO</h3>
+
+
+                <div class="bar">
+
+                    <div id="contentBar"></div>
+
+                </div>
+
+
+                <p id="contentScore"></p>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- Website Information -->
+
+
+        <div class="website-info">
+
+
+            <h2>Website Information</h2>
+
+
+
+            <p>
+
+                <strong>Title:</strong>
+
+                <span id="siteTitle"></span>
+
+            </p>
+
+
+
+
+
+            <p>
+
+                <strong>Description:</strong>
+
+                <span id="siteDescription"></span>
+
+            </p>
+
+
+
+
+
+            <p>
+
+                <strong>Load Time:</strong>
+
+                <span id="loadTime"></span>
+
+                seconds
+
+            </p>
+
+
+
+
+
+            <p>
+
+                <strong>Total Links:</strong>
+
+                <span id="totalLinks"></span>
+
+            </p>
+
+
+
+
+
+            <p>
+
+                <strong>Broken Links:</strong>
+
+                <span id="brokenLinks"></span>
+
+            </p>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- Recommendations -->
+
+
+        <div class="recommendations">
+
+
+            <h2>
+                Recommendations
+            </h2>
+
+
+
+            <ul id="recommendationList">
+
+
+            </ul>
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>

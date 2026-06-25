@@ -1,0 +1,478 @@
+* {
+
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+body {
+
+    background: #f5f7fb;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.container {
+
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+
+
+h1 {
+
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+
+
+
+p {
+
+    color: #666;
+
+}
+
+
+
+
+/* Input */
+
+
+.input-box {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+
+
+
+input {
+
+    width: 400px;
+
+    padding: 14px;
+
+    border-radius: 8px;
+
+    border: 1px solid #ccc;
+
+    font-size: 16px;
+
+}
+
+
+
+
+button {
+
+    padding: 14px 25px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #2563eb;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+
+
+button:hover {
+
+    background: #1d4ed8;
+
+}
+
+
+
+
+
+/* Loading */
+
+
+#loading {
+
+    margin-top: 20px;
+
+    font-size: 18px;
+
+    color: #2563eb;
+
+}
+
+
+
+.hidden {
+
+    display: none;
+
+}
+
+
+
+
+
+/* Result */
+
+
+#result {
+
+    margin-top: 40px;
+
+}
+
+
+
+
+
+.score-card {
+
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+
+}
+
+
+
+
+
+/* Circle Score */
+
+
+.score-circle {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 20px;
+
+}
+
+
+
+.circle {
+
+
+    width: 160px;
+
+    height: 160px;
+
+
+    border-radius: 50%;
+
+
+    border: 12px solid #2563eb;
+
+
+    display: flex;
+
+
+    justify-content: center;
+
+
+    align-items: center;
+
+
+    flex-direction: column;
+
+
+    font-size: 45px;
+
+
+    font-weight: bold;
+
+
+    transition: 0.5s;
+
+
+}
+
+
+
+.circle small {
+
+
+    font-size: 18px;
+
+    color: #666;
+
+}
+
+
+
+
+
+/* Cards */
+
+
+.cards {
+
+
+    display: flex;
+
+    gap: 20px;
+
+    margin-top: 25px;
+
+    flex-wrap: wrap;
+
+
+}
+
+
+
+.card {
+
+
+    flex: 1;
+
+    min-width: 200px;
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+
+}
+
+
+
+
+
+/* Progress Bars */
+
+
+.bar {
+
+
+    width: 100%;
+
+    height: 12px;
+
+    background: #e5e7eb;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+
+}
+
+
+
+.bar div {
+
+
+    height: 100%;
+
+
+    width: 0%;
+
+
+    background: #2563eb;
+
+
+    border-radius: 10px;
+
+
+    transition: 0.5s;
+
+
+}
+
+
+
+
+
+
+/* Website Info */
+
+
+.website-info {
+
+
+    margin-top: 30px;
+
+
+    background: white;
+
+
+    padding: 25px;
+
+
+    border-radius: 15px;
+
+
+    text-align: left;
+
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+
+}
+
+
+
+.website-info p {
+
+
+    margin: 12px 0;
+
+
+    color: #444;
+
+
+}
+
+
+
+.website-info h2,
+.recommendations h2 {
+
+
+    color: #222;
+
+
+}
+
+
+
+.website-info strong {
+
+
+    color: #111;
+
+
+}
+
+
+
+.website-info span {
+
+
+    color: #555;
+
+
+}
+
+
+
+
+
+
+
+/* Recommendations */
+
+
+.recommendations {
+
+
+    margin-top: 30px;
+
+
+    background: white;
+
+
+    padding: 25px;
+
+
+    border-radius: 15px;
+
+
+    text-align: left;
+
+
+}
+
+
+
+.recommendations li {
+
+
+    margin: 10px 0;
+
+
+}
+
+
+
+
+
+
+/* Mobile */
+
+
+@media(max-width:700px){
+
+
+    .cards {
+
+        flex-direction: column;
+
+    }
+
+
+
+    .input-box {
+
+
+        flex-direction: column;
+
+
+    }
+
+
+
+    input {
+
+
+        width: 100%;
+
+
+    }
+
+
+
+    button {
+
+
+        width: 100%;
+
+
+    }
+
+
+}
