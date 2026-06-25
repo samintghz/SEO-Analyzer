@@ -1,4 +1,5 @@
 # SEO-Analyzer
+
 A full-stack SEO auditing tool built with FastAPI, BeautifulSoup, and JavaScript for website analysis and automated recommendations.
 
 ## Overview
@@ -25,7 +26,6 @@ The application analyzes technical SEO factors, evaluates website performance, c
 ## Tech Stack
 
 ### Backend
-
 - Python
 - FastAPI
 - BeautifulSoup4
@@ -33,63 +33,15 @@ The application analyzes technical SEO factors, evaluates website performance, c
 - Uvicorn
 
 ### Frontend
-
 - HTML
 - CSS
 - JavaScript
 
+---
 
-
-## How to Run
+## Installation & Setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/samintghz/SEO-Analyzer.git
-2. Install dependencies
-
-Navigate to the backend folder:
-
-cd backend
-
-Install required packages:
-
-pip install -r requirements.txt
-3. Start the backend server
-
-Run:
-
-uvicorn main:app --reload
-
-The API will run at:
-
-http://127.0.0.1:8000
-API Usage
-
-Endpoint:
-
-POST /analyze
-
-Example request:
-
-{
-  "url": "https://github.com",
-  "keyword": "developer"
-}
-
-The API returns:
-
-SEO score
-Technical SEO score
-Performance score
-Accessibility score
-Keyword analysis
-Recommendations
-Future Improvements
-PDF report generation
-Advanced SEO metrics
-Database integration
-User authentication
-Author
-
-Samin Taghizadeh
+git clone [https://github.com/samintghz/SEO-Analyzer.git](https://github.com/samintghz/SEO-Analyzer.git)
