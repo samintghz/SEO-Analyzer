@@ -39,26 +39,6 @@ The application analyzes technical SEO factors, evaluates website performance, c
 - JavaScript
 
 
-## Project Structure
-
-
-
-SEO-Analyzer/
-
-│
-├── backend/
-│ ├── main.py
-│ ├── analyzer.py
-│ └── requirements.txt
-│
-├── frontend/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-│
-├── README.md
-└── .gitignore
-
 
 ## How to Run
 
