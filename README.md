@@ -40,7 +40,7 @@ The application analyzes technical SEO factors, evaluates website performance, c
 
 
 
-## How to Run on MacOS
+## How to Run
 
 ### 1. Clone the repository
 
